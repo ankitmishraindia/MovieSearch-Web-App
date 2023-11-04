@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    max-height: 300vh;
+    background-color: rgba(1, 1, 10, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.container h2{
+    
+    color: white;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.container input{
+    
+    padding: 10px 150px;
+    outline: none;
+    font-weight: 600;
+    text-align: center;
+}
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+.movieBox{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color: rgba(47, 47, 136, 0.6);
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.image{
+    width: 160px;
+    height: 180px;
+}
+.watchButton{
+    border: none;
+    border-radius: 8px;
+    padding: 9px 60px;
+    background-color: rgba(244,0,0,0.8);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.js" integrity="sha512-xWD36je/9YUjD4wYhpeuE/ZrfcMCtg4DKhu+dZKN3P7oEtC512t5n5wue9mTtcuygp5XZkj9Vd03dqbSPk+PcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <title>Movie Search Page</title>
+</head>
+<body>
+    <div class="container" id="main">
+        <h2>Movie List</h2>
+        <input id="input" type="text" pattern="[a-z]+" title="Only letters are allowed" placeholder="Search Movies by Name" required=true>
+        <div id="movies" class="movies"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
